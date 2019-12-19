@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Login_Home_help_pages.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:src="@drawable/blueheader"
+                android:layout_marginTop="-11dp" />
+
+            <ImageView
+                android:id="@+id/gradientGreen"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/gradient2" />
+
+            <ImageView
+                android:id="@+id/gradientYellow"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_below="@+id/gradientGreen"
+                android:layout_marginTop="-91dp"
+                android:src="@drawable/gradient1" />
+
+            <ImageView
+                android:id="@+id/Greetings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/hello" />
+
+            <TextView
+                android:id="@+id/Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text=""
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="90dp"
+                android:layout_height="95dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/pinknobackground" />
+
+
+            <ImageButton
+                android:id="@+id/cameraBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="115dp"
+                android:background="@drawable/cam_button" />
+
+            <ImageButton
+                android:id="@+id/histBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="110dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/history_button" />
+
+            <ImageButton
+                android:id="@+id/mingameBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="155dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="495dp"
+                android:background="@drawable/mininow" />
+            <ImageButton
+                android:id="@+id/logoutBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="155dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="495dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/logoutfinal" />
+
+            <ImageButton
+                android:id="@+id/uploadBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="155dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/uploadchange" />
+
+            <ImageButton
+                android:id="@+id/helpBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="315dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/help_button" />
+
+            <ImageButton
+                android:id="@+id/settingsBut"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

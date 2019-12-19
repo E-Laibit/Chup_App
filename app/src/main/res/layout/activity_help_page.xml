@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login_Home_help_pages.HelpPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="750dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/whitebackground" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluepologonheader"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/helplabel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowback"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/backButton"/>
+            <ImageView
+                android:id="@+id/firstbox"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/greyboxhelp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="100dp"/>
+
+            <FrameLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="1."
+                    android:layout_margin="20sp"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="25sp"
+                    android:text="What is the purpose of the app?"
+                    android:textSize="19dp"/>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="The purpose of this application is to allow
+                     users to obtain the name of a object in both English and Vietnamese
+after taking a picture or uploading from the gallery. Creating an environment that allows both Vietnamese
+and English speakers to communicate easier."
+                    />
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/secondbox"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/greenboxhelp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="300dp"/>
+
+            <FrameLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="2."
+                    android:layout_margin="20sp"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="25sp"
+                    android:text="How to use the app?"
+                    android:textSize="19dp"/>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="First, click either the 'camera' or 'upload',
+based on where you want the image to come from. Upload or take a picture of the object,
+you will be automated to a new page with the object name. Next, click 'translation' to
+obtain the Vietnamese translation."
+                    />
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/thirdbox"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/greyboxhelp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="500dp"/>
+
+            <FrameLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="3."
+                    android:layout_margin="20sp"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="25sp"
+                    android:text="How to save and view my images?"
+                    android:textSize="19dp"/>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Click on 'Save Image', and wait for the
+progress bar to load. Then proceed to click 'show uploads' to view images."
+                    />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
